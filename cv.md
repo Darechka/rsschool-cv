@@ -49,11 +49,10 @@ I hope to find my first job in the IT world soon, and I’m full of enthusiasm t
 
 ***Note:***
  * *0 (zero) must not be included in the resulting array*
- * *the loop must be executed till ***n*** times inclusive*
+ * *the loop must be executed up to ***n*** times (including ***n***)*
  * *only "for" loop can be used in this task*
 
 **My code:**
-
 ```javascript
 function evenFn(n) {
     let arr = [];
@@ -82,7 +81,7 @@ console.log(evenFn(20)); // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 ## Education
 **Belarusian State University**, 2005 - 2010
 
-*Faculaty of International Relations*
+*Faculty of International Relations*
 
 ## Work Experience
 **OOO Mirana** (April 2018 - April 2021)
@@ -91,11 +90,12 @@ console.log(evenFn(20)); // [2, 4, 6, 8, 10, 12, 14, 16, 18, 20]
 
 Responsibilities:
 
-* Business correspondence in English
+* Business correspondence
 * Translation of documents
+* Conducting research and preparation of reports
 * Assistance with business-related arrangements
 
-**SOOO BelautoMAZService, ООО Altra Group** (2011-2018)
+**SOOO BelautoMAZService, ООО Altra Group** (April 2011 - April 2018)
 
 *Import Specialist*
 
