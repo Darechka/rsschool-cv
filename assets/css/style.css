@@ -1,25 +1,75 @@
 * {
     margin: 0;
+    box-sizing: border-box;
 }
-header {
-    position: relative;
+
+html,
+body {
+    height: 100%;
+    font-size: 22px;
+    line-height: 28px;
+    background-color: rgb(50, 175, 178);
 }
-.header_item {
-    display: inline-block;
+
+p {
+    margin: 12px 0;
 }
+
+section {
+    margin: 50px;  
+}
+
+.container {
+    min-height: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.header_navbar {
+    border-bottom: 1px solid rgb(50, 175, 178);
+    margin: 0 50px;
+}
+
+.header_navbar_list {
+    margin: 20px 0;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.header_navbar_list-item {
+    margin: 0 20px;
+}
+
+.header_navbar_list-item-link {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header_navbar_list-item-link:hover {
+    color: rgb(50, 175, 178);
+}
+
+.header_main-part {
+    display: flex;
+}
+
 .header_avatar {
-    margin: 50px;
-}
-.avatar {
     border: 3px solid rgb(50, 175, 178);
     border-radius: 50%;
+    width: 300px;
+    margin: 50px 50px 20px;
 }
-.header_name {
-    margin: 50px;
-    position: absolute;
-    left: 400px;
+.header_text {
+    margin: 90px 60px 0;
+}
 
-}
 .name {
     color: rgb(50, 175, 178);
     font-size: 48px;
@@ -28,21 +78,88 @@ header {
     margin-top: 30px;
     font-size: 32px;
 }
-.navbar_list {
-    margin: 30px 0;
-}
-.navbar_list-item {
-display: inline-block;
-margin: 0 30px;
+
+.main {
+    flex: 1 1 auto;
 }
 
-.navbar_list-item-link {
+.section_title {
+    font-size: 28px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid rgb(50, 175, 178);
+    padding-bottom: 20px;
+}
+
+.contact_list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.list-item_margin {
+    margin: 10px 0;
+}
+
+.contact_list-item-link {
     text-decoration: none;
-    color: black;
-    font-size: 24px;
+    color: rgb(50, 175, 178);
+}
+
+.code {
+    font-size: 18px;
+}
+
+.code-example_text, 
+.code-example_list {
+    margin-bottom: 20px;
+}
+
+.footer {
+    border-top: 1px solid rgb(50, 175, 178);
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 20px 60px 0;
+}
+
+.github_logo {
+    width: 123px;
+}
+
+.footer_text {
+    align-self: center;
+}
+
+.rs_logo {
+    width: 150px;
+}
+
+.bold {
     font-weight: 700;
 }
 
-.navbar_list-item-link:hover {
-    color: rgb(50, 175, 178);
+.italic {
+    font-style: italic;
 }
+
+.red {
+    color: red;
+    font-size: 18px;
+}
+
+.blue {
+    color: blue;
+    font-size: 18px;
+}
+
+.purple {
+    color: purple;
+    font-size: 18px;
+}
+
+.gray {
+    color: gray;
+    font-size: 18px;
+}
+
+
+
